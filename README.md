@@ -56,3 +56,20 @@ server.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
+🔐 Secrets Required:
+
+DOCKER_USERNAME — your DockerHub username
+
+DOCKER_PASSWORD — your DockerHub password or access token
+
+ How It Works
+Push to Main: Triggers the workflow.
+
+Install Dependencies: Ensures the environment is ready.
+
+Test: Optionally run tests.
+
+Build Docker Image: Uses the Dockerfile to build the app.
+
+Push Image: Uploads the image to DockerHub.
+
